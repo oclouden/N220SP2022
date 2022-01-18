@@ -51,9 +51,7 @@ function draw() {
   //   var red = "#FF0000";
     //    (could just put this inplace of any case needing red)
 
-
-
-
+    
       //  create a couple variables to establish things together
 
         
