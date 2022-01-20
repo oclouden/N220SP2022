@@ -1,10 +1,10 @@
 //Owen Louden, 1/17/22, N220-20816
 
-var yellow = (246,232,3)
-var white = (256,256,256)
-var red = (209,22,51)
-var green = (0,153,57)
-var purple = (71,57,134)
+var yellow2 = [246,232,3]
+var white2 = [256,256,256]
+var red2 = [209,22,51]
+var green2 = [0,153,57]
+var purple2 = [71,57,134]
 
 function setup() {
 
@@ -121,7 +121,7 @@ endShape();
 
 
 //white on bottom now
-fill(white)
+fill(white2);
 beginShape();
 vertex(688,1399);
 vertex(663,1324);
@@ -178,7 +178,7 @@ endShape();
 
 
 //red shape
-fill(red)
+fill(red2)
 beginShape();
 vertex(495,83);
 vertex(473,75);
@@ -285,7 +285,7 @@ vertex(1208,581);
 endShape();
 
 //yellow
-fill(yellow)
+fill(yellow2)
 beginShape();
 vertex(492,181);
 vertex(185,397);
@@ -370,7 +370,7 @@ vertex(374,675);
 endShape();
 
 //white in ear
-fill(white);
+fill(white2);
 beginShape();
 vertex(1228,595);
 vertex(1242,579);
@@ -383,7 +383,7 @@ vertex(1228,595);
 endShape();
 //xtc logo, starts at intersection of X and yellow
 
-fill(purple)
+fill(purple2)
 beginShape();
 vertex(374,675);
 vertex(374,675);
@@ -473,7 +473,7 @@ vertex(607,1105);
 endShape();
 
 //green at the bottom
-fill(green)
+fill(green2)
 beginShape();
 vertex(1054,0);
 vertex(1093,24);
@@ -530,7 +530,7 @@ endShape();
 
 //green under can start and end
 
-fill(green)
+fill(green2)
 beginShape();
 vertex(1399,1334);
 vertex(1329,1199);
@@ -545,7 +545,7 @@ vertex(1399,1399);
 endShape();
 
 //white
-fill(white);
+fill(white2);
 beginShape();
 vertex(1217,1048);
 vertex(1363,967);
@@ -561,7 +561,7 @@ endShape();
 
 //yellow
 
-fill(yellow);
+fill(yellow2);
 beginShape();
 vertex(1298,807);
 vertex(1367,967);
@@ -572,7 +572,7 @@ endShape();
 
 //green
 
-fill(green);
+fill(green2);
 beginShape();
 vertex(1216,790);
 vertex(1292,699);
@@ -590,11 +590,15 @@ endShape();
 
 
 //red circle
-fill(red)
+fill(red2)
+
 ellipse(550, 595, 73, [75])
+
+
 //white circle
-fill(white)
+fill(white2)
 ellipse(550, 595, 26, [26])
+
 }
 
 
