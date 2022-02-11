@@ -26,7 +26,7 @@ function draw() {
 
 //create new function (take 1 argument)
 
-function draw((a,b,c)) {
+function draw() {
 
 }
 
