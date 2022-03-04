@@ -6,7 +6,7 @@
 let newEl = document.createElement("div");
 
 newEl.onclick = myFunction
-let click = document.querySelector("#greenDiv")
+let click = document.querySelector("#greenDiv");
 
 //suppose I'm confused as to whether I need to mess with the div element or the greenDiv ID
 
