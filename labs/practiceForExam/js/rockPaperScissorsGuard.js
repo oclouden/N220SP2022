@@ -80,7 +80,7 @@
         //part where you add guard to block from computer.
         else if(player == 'guard'){
 
-            //subtract from player score
+            //subtract from player score, how can I make it only half a point???
             (playerScore--);
             //display this in scoreboard
             playerScoreBoard.textContent = playerScore;
