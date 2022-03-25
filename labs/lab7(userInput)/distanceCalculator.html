@@ -1,0 +1,38 @@
+<!-- Owen louden, Intro Media Apps, 3/24/22 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distance Calculator</title>
+</head>
+
+<body>
+    <!-- application title -->
+    <h2>Distance Calculator</h2>
+    
+    <!-- input for coordinate 1, (x1,y1), let's connect both inputs next to each other -->
+        Coordinate 1 (x1,y1): (<input type="text" id="xOne"> , 
+<input type="text" id="yOne">)
+
+<!-- let's make a little split -->
+<br>
+
+        <!-- input for coordinate 2, (x2,y2), let's connect both inputs next to each other -->
+        Coordinate 2 (x2,y2): (<input type="text" id="xTwo"> , 
+<input type="text" id="yTwo">)
+
+<!-- another split -->
+<br>
+
+<!-- input button, ennact ShowDistance function -->
+        <input type="button" onclick="ShowDistance()" value="Calculate 
+Distance">
+    </p>
+
+    <!-- where to output the information -->
+    <div id="outPut"> </div>
+
+    <script src="js/distanceCalculatorApp.js"></script>
+</body>
