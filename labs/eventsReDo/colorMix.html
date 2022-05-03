@@ -1,0 +1,50 @@
+<!-- Owen Louden, Events ReDo, 5/2/22 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Mixer</title>
+</head>
+<style>
+    .changedColor {background: #000000;
+    width: 300px;
+    height: 200px;}
+
+</style>
+
+<body>
+
+    <!-- changed color box -->
+    <div id="colorBox"></div>
+    
+    <br>
+    <!-- displayed RGB value -->
+    <div id="rgb"></div>
+
+
+    <!-- seperate labels for each color and each increment of the value -->
+    <label>Red: </label>
+    <button onclick="changeColor(event)" class="red" data-value="1" data-color="red">+1</button>
+    <button onclick="changeColor(event)" class="red" data-value="5" data-color="red">+5</button>
+    <button onclick="changeColor(event)" class="red" data-value="10" data-color="red">+10</button><br>
+
+    <label>Green: </label>
+    <button onclick="changeColor(event)" class="green" data-value="1" data-color="green">+1</button>
+    <button onclick="changeColor(event)" class="green" data-value="5" data-color="green">+5</button>
+    <button onclick="changeColor(event)" class="green" data-value="10"data-color="green">+10</button>
+    
+    <br>
+    
+    <labe>Blue: </label>
+    <button onclick="changeColor(event)" class="blue" data-value="1" data-color="blue">+1</button>
+    <button onclick="changeColor(event)" class="blue" data-value="5" data-color="blue">+5</button>
+    <button onclick="changeColor(event)" class="blue" data-value="10" data-color="blue">+10</button>
+
+
+
+    <script src="js/colorMix.js"></script>
+</body>
+</html>
